@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    font-size: 22px;
+    line-height: 150px;
+    float: right;
+}
+
+.logo {
+    position: absolute;
+    left: 4.17%;
+    right: 72.21%;
+    top: 24%;
+    bottom: 29.33%;
+}
+
+.navbar {
+    width: 650px;
+    height: 50px;
+    list-style-type: none;
+    color: #000000;
+    font-size: 17px;
+    line-height: 50px;
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 65px 106px;
+    left: 4.17%;
+    right: 72.21%;
+    top: 43.33%;
+    bottom: 44%;
+    display: flex;
+}
+
+.header::after {
+    content: "asfds";
+    visibility: hidden;
+    clear: both;
+}
+
+li {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+li a:hover {
+    border: 1px solid #03a9f4;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#courses {
+    background: #B2D235;
+    border-radius: 17px;
+}
+
+.banner {
+    background-image: url("../images/rectangle.png");
+    position: relative;
+    width: 1440px;
+    height: 655px;
+    left: 0px;
+    top: 150px;
+}
+
+.learn {
+    width: 513px;
+    height: 61px;
+    left: 59px;
+    top: 354px;
+    font-family: UTM BryantLG;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -0.05em;
+    color: #11114E;
+}
+
+.learn1 {
+    width: 395px;
+    height: 61px;
+    left: 60px;
+    top: 406px;
+    font-family: UTM BryantLG;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    color: #11114E;
+}
+
+.learn2 {
+    width: 249px;
+    height: 50px;
+    left: 60px;
+    top: 477px;
+    font-family: UTM BryantLG;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+    color: #505353;
+}
+
+.start-learning {
+    width: 377px;
+    height: 70px;
+    left: 60px;
+    top: 553px;
+    background: #B2D235;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    font-family: UTM BryantLG;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    border: 0.3px solid #FFFFFF;
+    text-align: center;
+    line-height: 70px;
+}
+
+.banner1 {
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 95px;
+}
+
+.banner2 {
+    position: absolute;
+    width: 360px;
+    height: 190px;
+    left: 1047px;
+    top: 609px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+    line-height: 190px;
+    text-align: center;
+}
+
+.banner21 {
+    width: 63px;
+    height: 16px;
+    left: 1112px;
+    top: 622px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #7F7F7F;
+}
+
+.banner22 {
+    width: 256px;
+    height: 53px;
+    left: 1097px;
+    top: 642px;
+    background: #F1F0F0;
+    border-radius: 15px;
+    line-height: 53px;
+    text-align: center;
+}
+
+.banner23 {
+    width: 276px;
+    height: 37px;
+    left: 1088px;
+    top: 718px;
+    background: #3184F7;
+    border-radius: 10px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.banner24 {
+    width: 208px;
+    height: 16px;
+    left: 1123px;
+    top: 761px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #B3B3B3;
+    text-align: center;
+}
