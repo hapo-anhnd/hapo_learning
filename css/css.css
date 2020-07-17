@@ -72,7 +72,7 @@ li a {
 
 .banner {
     background-image: url("../images/rectangle.png");
-    position: relative;
+    position: absolute;
     width: 1440px;
     height: 655px;
     left: 0px;
@@ -145,13 +145,11 @@ li a {
 }
 
 .banner1 {
-    position: absolute;
     padding-top: 200px;
     padding-left: 95px;
 }
 
 .banner2 {
-    position: absolute;
     width: 360px;
     height: 190px;
     left: 1047px;
@@ -212,14 +210,17 @@ li a {
 }
 
 .body1 {
-    padding-top: 182px;
+    position: absolute;
     top: 805px;
     height: 600px;
+    width: 1440px;
 }
 
 .footer {
+    position: absolute;
     width: 1440px;
     height: 308px;
+    top: 4754px;
 }
 
 .footer-flex {
@@ -281,15 +282,15 @@ li a {
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 18px;
     letter-spacing: 2px;
     color: #FFFFFF;
     width: 1440px;
+    height: 38px;
+    line-height: 38px;
     text-align: center;
 }
 
 .flex-column {
-    height: 38px;
     display: flex;
     flex-direction: column;
 }
