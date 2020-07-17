@@ -65,7 +65,7 @@ li a {
     color: #000000;
 }
 
-#courses {
+.courses {
     background: #B2D235;
     border-radius: 17px;
 }
@@ -129,7 +129,6 @@ li a {
     font-weight: bold;
     font-size: 30px;
     line-height: 37px;
-    /* identical to box height */
     letter-spacing: -0.05em;
     color: #FFFFFF;
     border: 0.3px solid #FFFFFF;
@@ -212,13 +211,85 @@ li a {
     text-align: center;
 }
 
-.body1::after {
-    content: "asfds";
-    visibility: hidden;
-    clear: both;
-}
-
 .body1 {
+    padding-top: 182px;
     top: 805px;
     height: 600px;
+}
+
+.footer {
+    width: 1440px;
+    height: 308px;
+}
+
+.footer-flex {
+    background-color: #4f5354;
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content1 {
+    padding-top: 46px;
+    font-family: UTM BryantLG;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+.content1>p {
+    margin-left: 66px;
+}
+
+.content2 {
+    padding-top: 65px;
+    font-family: UTM BryantLG;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    line-height: 2;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content21 {
+    padding-right: 97px;
+}
+
+.content3 {
+    line-height: 270px;
+}
+
+.content3>a {
+    padding-right: 35px;
+}
+
+.buttom-footer {
+    background-color: #454545;
+    font-family: UTM BryantLG;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    width: 1440px;
+    text-align: center;
+}
+
+.flex-column {
+    height: 38px;
+    display: flex;
+    flex-direction: column;
 }
