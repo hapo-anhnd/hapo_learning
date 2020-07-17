@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+
+/* start header */
+
 .header {
     position: absolute;
     width: 1440px;
@@ -69,6 +72,12 @@ li a {
     background: #B2D235;
     border-radius: 17px;
 }
+
+
+/* end header */
+
+
+/* start banner */
 
 .banner {
     background-image: url("../images/rectangle.png");
@@ -209,12 +218,24 @@ li a {
     text-align: center;
 }
 
+
+/* end banner */
+
+
+/* start body1 */
+
 .body1 {
     position: absolute;
     top: 805px;
     height: 1414px;
     width: 1440px;
 }
+
+
+/* end boday1 */
+
+
+/* footer */
 
 .footer {
     position: absolute;
@@ -294,3 +315,6 @@ li a {
     display: flex;
     flex-direction: column;
 }
+
+
+/* end footer */
