@@ -27,7 +27,6 @@
 .navbar {
   width: 650px;
   height: 50px;
-  list-style-type: none;
   color: #000000;
   font-size: 17px;
   line-height: 50px;
@@ -49,8 +48,7 @@
 }
 
 li {
-  padding-right: .5rem;
-  padding-left: .5rem;
+  padding-right: 0 .5rem 0 .5rem;
 }
 
 li a:hover {
@@ -60,9 +58,7 @@ li a:hover {
 li a {
   text-decoration: none;
   font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
+  font: bold 14px;
   text-transform: uppercase;
   color: #000000;
 }
@@ -94,8 +90,6 @@ li a {
   width: 513px;
   height: 61px;
   left: 59px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 50px;
   line-height: 61px;
   letter-spacing: -0.05em;
@@ -106,19 +100,15 @@ li a {
   width: 395px;
   height: 61px;
   left: 60px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
+  font: bold 50px;
   line-height: 61px;
   color: #11114E;
 }
 
-.llearn-lessons {
+.learn-lessons {
   width: 249px;
   height: 50px;
   left: 60px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 25px;
   letter-spacing: -0.05em;
@@ -132,9 +122,7 @@ li a {
   background: #B2D235;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
+  font: bold 30px;
   line-height: 37px;
   letter-spacing: -0.05em;
   color: #FFFFFF;
@@ -152,8 +140,7 @@ li a {
 }
 
 .banner-left {
-  padding-top: 200px;
-  padding-left: 95px;
+  padding-top: 200px 0px 0px 95px;
 }
 /* end banner */
 
@@ -202,8 +189,6 @@ li a {
 
 .footer-logo {
   padding-top: 46px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 25px;
   letter-spacing: -0.05em;
@@ -216,9 +201,7 @@ li a {
 
 .footer-nav {
   padding-top: 65px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 23px;
+  font: bold 23px;
   line-height: 28px;
   letter-spacing: -0.05em;
   color: #FFFFFF;
@@ -246,8 +229,6 @@ li a {
 
 .buttom-footer {
   background-color: #454545;
-  font-style: normal;
-  font-weight: normal;
   font-size: 15px;
   letter-spacing: 2px;
   color: #FFFFFF;
