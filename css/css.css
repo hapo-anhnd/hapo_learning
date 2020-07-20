@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'UTM BryantLG';
+  src: url('../font/UTM BryantLG.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/Open Sans.woff');
+}
+
 /* start header */
 
 .header {
@@ -27,7 +37,6 @@
 .navbar {
   width: 650px;
   height: 50px;
-  list-style-type: none;
   color: #000000;
   font-size: 17px;
   line-height: 50px;
@@ -35,6 +44,10 @@
   float: right;
   margin: 0;
   padding: 65px 106px;
+  left: 4.17%;
+  right: 72.21%;
+  top: 43.33%;
+  bottom: 44%;
   display: flex;
 }
 
@@ -45,8 +58,7 @@
 }
 
 li {
-  padding-right: .5rem;
-  padding-left: .5rem;
+  padding: 0 .5rem 0 .5rem;
 }
 
 li a:hover {
@@ -55,7 +67,7 @@ li a:hover {
 
 li a {
   text-decoration: none;
-  font:bold 14px Open Sans;
+  font: bold 14px 'Open Sans';
   text-transform: uppercase;
   color: #000000;
 }
@@ -78,10 +90,6 @@ li a {
   top: 150px;
 }
 
-@font-face {
-  font-family: 'UTM BryantLG';
-  src: url('../font/UTM BryantLG.ttf');
-}
 
 .learn {
   width: 513px;
@@ -97,7 +105,7 @@ li a {
   width: 395px;
   height: 61px;
   left: 60px;
-  font: bold 50px 'UTM BryantLG';
+  font: bold 50px UTM BryantLG; 
   line-height: 61px;
   color: #11114E;
 }
@@ -106,7 +114,7 @@ li a {
   width: 249px;
   height: 50px;
   left: 60px;
-  font: 20px 'UTM BryantLG';
+  font-size: 20px;
   line-height: 25px;
   letter-spacing: -0.05em;
   color: #505353;
@@ -119,7 +127,7 @@ li a {
   background: #B2D235;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-  font: bold 30px 'UTM BryantLG'; 
+  font: bold 30px UTM BryantLG;
   line-height: 37px;
   letter-spacing: -0.05em;
   color: #FFFFFF;
@@ -141,5 +149,103 @@ li a {
 }
 /* end banner */
 
+/* start body-courses */
 
+.body-courses {
+  position: absolute;
+  top: 805px;
+  height: 1414px;
+  width: 1440px;
+}
 
+.courses-main{
+  padding: 50px 110px 135px 135px;
+}
+.w3c{
+  height: 470px;
+  width: 370px;
+}
+
+/* end body-courses */
+
+.body-hapo-learn {
+  position: absolute;
+  top: 2219px;
+  height: 740px;
+  width: 1440px;
+  background-image: url("../images/Rectangle\ 17.png")
+}
+
+/* footer */
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 308px;
+  top: 4754px;
+}
+
+.footer-flex {
+  background-color: #4f5354;
+  height: 270px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  padding-top: 46px; 
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}
+
+.footer-logo>p {
+  margin-left: 66px;
+}
+
+.footer-nav {
+  padding-top: 65px;
+  font: bold 23px UTM BryantLG;
+  line-height: 28px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  line-height: 2;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-home {
+  padding-right: 97px;
+}
+
+.footer-social {
+  line-height: 270px;
+}
+
+.footer-social>a {
+  padding-right: 35px;
+}
+
+.buttom-footer {
+  background-color: #454545;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  width: 1440px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* end footer */
