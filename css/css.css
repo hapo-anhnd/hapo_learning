@@ -85,11 +85,15 @@ li a {
   top: 150px;
 }
 
+.font-utm {
+  font-family: UTM BryantLG;
+  src: url('../font/UTM BryantLG.ttf');
+}
+
 .learn {
   width: 513px;
   height: 61px;
   left: 59px;
-  font-family: UTM BryantLG;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -102,7 +106,6 @@ li a {
   width: 395px;
   height: 61px;
   left: 60px;
-  font-family: UTM BryantLG;
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
@@ -114,7 +117,6 @@ li a {
   width: 249px;
   height: 50px;
   left: 60px;
-  font-family: UTM BryantLG;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -130,7 +132,6 @@ li a {
   background: #B2D235;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-  font-family: UTM BryantLG;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -154,7 +155,6 @@ li a {
   padding-top: 200px;
   padding-left: 95px;
 }
-
 /* end banner */
 
 /* start body-courses */
@@ -174,7 +174,7 @@ li a {
   width: 370px;
 }
 
-/* end boday1 */
+/* end body-courses */
 
 .body-hapo-learn {
   position: absolute;
@@ -202,7 +202,6 @@ li a {
 
 .footer-logo {
   padding-top: 46px;
-  font-family: UTM BryantLG;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -217,7 +216,6 @@ li a {
 
 .footer-nav {
   padding-top: 65px;
-  font-family: UTM BryantLG;
   font-style: normal;
   font-weight: bold;
   font-size: 23px;
@@ -248,7 +246,6 @@ li a {
 
 .buttom-footer {
   background-color: #454545;
-  font-family: UTM BryantLG;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
