@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'UTM BryantLG';
+  src: url('../font/UTM BryantLG.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/Open Sans.woff');
+}
+
 /* start header */
 
 .header {
@@ -48,7 +58,7 @@
 }
 
 li {
-  padding-right: 0 .5rem 0 .5rem;
+  padding: 0 .5rem 0 .5rem;
 }
 
 li a:hover {
@@ -57,8 +67,7 @@ li a:hover {
 
 li a {
   text-decoration: none;
-  font-family: Open Sans;
-  font: bold 14px;
+  font: bold 14px 'Open Sans';
   text-transform: uppercase;
   color: #000000;
 }
@@ -81,10 +90,6 @@ li a {
   top: 150px;
 }
 
-.font-utm {
-  font-family: UTM BryantLG;
-  src: url('../font/UTM BryantLG.ttf');
-}
 
 .learn {
   width: 513px;
@@ -100,7 +105,7 @@ li a {
   width: 395px;
   height: 61px;
   left: 60px;
-  font: bold 50px;
+  font: bold 50px UTM BryantLG; 
   line-height: 61px;
   color: #11114E;
 }
@@ -122,7 +127,7 @@ li a {
   background: #B2D235;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-  font: bold 30px;
+  font: bold 30px UTM BryantLG;
   line-height: 37px;
   letter-spacing: -0.05em;
   color: #FFFFFF;
@@ -140,7 +145,7 @@ li a {
 }
 
 .banner-left {
-  padding-top: 200px 0px 0px 95px;
+  padding: 200px 0 0 95px;
 }
 /* end banner */
 
@@ -188,7 +193,7 @@ li a {
 }
 
 .footer-logo {
-  padding-top: 46px;
+  padding-top: 46px; 
   font-size: 20px;
   line-height: 25px;
   letter-spacing: -0.05em;
@@ -201,7 +206,7 @@ li a {
 
 .footer-nav {
   padding-top: 65px;
-  font: bold 23px;
+  font: bold 23px UTM BryantLG;
   line-height: 28px;
   letter-spacing: -0.05em;
   color: #FFFFFF;
