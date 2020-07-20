@@ -61,8 +61,10 @@ li {
   padding: 0 .5rem 0 .5rem;
 }
 
-li a:hover {
+li:hover{
   border: 1px solid #03a9f4;
+  background: #B2D235;
+  border-radius: 17px;
 }
 
 li a {
@@ -70,11 +72,6 @@ li a {
   font: bold 14px 'Open Sans';
   text-transform: uppercase;
   color: #000000;
-}
-
-.courses {
-  background: #B2D235;
-  border-radius: 17px;
 }
 
 /* end header */
