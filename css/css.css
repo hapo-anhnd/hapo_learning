@@ -215,15 +215,15 @@ li a {
   flex-direction: column;
 }
 
-.footer-nav-first {
+.footer-home {
   padding-right: 97px;
 }
 
-.footer-img {
+.footer-social {
   line-height: 270px;
 }
 
-.footer-img>a {
+.footer-social>a {
   padding-right: 35px;
 }
 
