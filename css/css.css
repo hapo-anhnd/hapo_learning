@@ -98,7 +98,7 @@ li a {
   color: #11114E;
 }
 
-.learn1 {
+.learn-hapo {
   width: 395px;
   height: 61px;
   left: 60px;
@@ -110,7 +110,7 @@ li a {
   color: #11114E;
 }
 
-.learn2 {
+.learn-lessons {
   width: 249px;
   height: 50px;
   left: 60px;
@@ -150,76 +150,16 @@ li a {
   color: #ffffff;
 }
 
-.banner1 {
+.banner-left {
   padding-top: 200px;
   padding-left: 95px;
 }
 
-.banner2 {
-  width: 360px;
-  height: 190px;
-  left: 1047px;
-  background: #FFFFFF;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 23px;
-  line-height: 190px;
-  text-align: center;
-}
-
-.banner21 {
-  width: 63px;
-  height: 16px;
-  left: 1112px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: -0.02em;
-  color: #7F7F7F;
-}
-
-.banner22 {
-  width: 256px;
-  height: 53px;
-  left: 1097px;
-  background: #F1F0F0;
-  border-radius: 15px;
-  line-height: 53px;
-  text-align: center;
-}
-
-.banner23 {
-  width: 276px;
-  height: 37px;
-  left: 1088px;
-  background: #3184F7;
-  border-radius: 10px;
-  line-height: 37px;
-  text-align: center;
-}
-
-.banner24 {
-  width: 208px;
-  height: 16px;
-  left: 1123px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: -0.02em;
-  color: #B3B3B3;
-  text-align: center;
-}
-
 /* end banner */
 
-/* start body1 */
+/* start body-courses */
 
-.body1 {
+.body-courses {
   position: absolute;
   top: 805px;
   height: 1414px;
@@ -260,7 +200,7 @@ li a {
   justify-content: space-around;
 }
 
-.content1 {
+.footer-logo {
   padding-top: 46px;
   font-family: UTM BryantLG;
   font-style: normal;
@@ -271,11 +211,11 @@ li a {
   color: #FFFFFF;
 }
 
-.content1>p {
+.footer-logo>p {
   margin-left: 66px;
 }
 
-.content2 {
+.footer-nav {
   padding-top: 65px;
   font-family: UTM BryantLG;
   font-style: normal;
@@ -294,15 +234,15 @@ li a {
   flex-direction: column;
 }
 
-.content21 {
+.footer-home {
   padding-right: 97px;
 }
 
-.content3 {
+.footer-social {
   line-height: 270px;
 }
 
-.content3>a {
+.footer-social>a {
   padding-right: 35px;
 }
 
