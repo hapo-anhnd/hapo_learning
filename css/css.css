@@ -226,6 +226,14 @@ li a {
   width: 1440px;
 }
 
+.courses-main{
+  padding: 50px 110px 135px 135px;
+}
+.w3c{
+  height: 470px;
+  width: 370px;
+}
+
 /* end boday1 */
 
 .body-hapo-learn {
