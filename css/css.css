@@ -1,214 +1,248 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
+@font-face {
+  font-family: 'UTM BryantLG';
+  src: url('../font/UTM BryantLG.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/Open Sans.woff');
+}
+
+/* start header */
+
 .header {
-    position: absolute;
-    width: 1440px;
-    height: 150px;
-    left: 0px;
-    top: 0px;
-    font-size: 22px;
-    line-height: 150px;
-    float: right;
+  position: absolute;
+  width: 1440px;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  font-size: 22px;
+  line-height: 150px;
+  float: right;
 }
 
 .logo {
-    position: absolute;
-    left: 4.17%;
-    right: 72.21%;
-    top: 24%;
-    bottom: 29.33%;
+  position: absolute;
+  left: 4.17%;
+  right: 72.21%;
+  top: 24%;
+  bottom: 29.33%;
 }
 
 .navbar {
-    width: 650px;
-    height: 50px;
-    list-style-type: none;
-    color: #000000;
-    font-size: 17px;
-    line-height: 50px;
-    list-style-type: none;
-    float: right;
-    margin: 0;
-    padding: 65px 106px;
-    left: 4.17%;
-    right: 72.21%;
-    top: 43.33%;
-    bottom: 44%;
-    display: flex;
+  width: 650px;
+  height: 50px;
+  color: #000000;
+  font-size: 17px;
+  line-height: 50px;
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 65px 106px;
+  left: 4.17%;
+  right: 72.21%;
+  top: 43.33%;
+  bottom: 44%;
+  display: flex;
 }
 
 .header::after {
-    content: "asfds";
-    visibility: hidden;
-    clear: both;
+  content: "asfds";
+  visibility: hidden;
+  clear: both;
 }
 
 li {
-    padding-right: .5rem;
-    padding-left: .5rem;
+  padding: 0 .5rem 0 .5rem;
 }
 
-li a:hover {
-    border: 1px solid #03a9f4;
+li:hover{
+  border: 1px solid #03a9f4;
+  background: #B2D235;
+  border-radius: 17px;
 }
 
 li a {
-    text-decoration: none;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #000000;
+  text-decoration: none;
+  font: bold 14px 'Open Sans';
+  text-transform: uppercase;
+  color: #000000;
 }
 
-#courses {
-    background: #B2D235;
-    border-radius: 17px;
-}
+/* end header */
+
+/* start banner */
 
 .banner {
-    background-image: url("../images/rectangle.png");
-    position: relative;
-    width: 1440px;
-    height: 655px;
-    left: 0px;
-    top: 150px;
+  background-image: url("../images/rectangle.png");
+  position: absolute;
+  width: 1440px;
+  height: 655px;
+  left: 0px;
+  top: 150px;
 }
+
 
 .learn {
-    width: 513px;
-    height: 61px;
-    left: 59px;
-    top: 354px;
-    font-family: UTM BryantLG;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 61px;
-    letter-spacing: -0.05em;
-    color: #11114E;
+  width: 513px;
+  height: 61px;
+  left: 59px;
+  font-size: 50px;
+  line-height: 61px;
+  letter-spacing: -0.05em;
+  color: #11114E;
 }
 
-.learn1 {
-    width: 395px;
-    height: 61px;
-    left: 60px;
-    top: 406px;
-    font-family: UTM BryantLG;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 61px;
-    color: #11114E;
+.learn-hapo {
+  width: 395px;
+  height: 61px;
+  left: 60px;
+  font: bold 50px UTM BryantLG; 
+  line-height: 61px;
+  color: #11114E;
 }
 
-.learn2 {
-    width: 249px;
-    height: 50px;
-    left: 60px;
-    top: 477px;
-    font-family: UTM BryantLG;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: -0.05em;
-    color: #505353;
+.learn-lessons {
+  width: 249px;
+  height: 50px;
+  left: 60px;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+  color: #505353;
 }
 
 .start-learning {
-    width: 377px;
-    height: 70px;
-    left: 60px;
-    top: 553px;
-    background: #B2D235;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 35px;
-    font-family: UTM BryantLG;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 37px;
-    /* identical to box height */
-    letter-spacing: -0.05em;
-    color: #FFFFFF;
-    border: 0.3px solid #FFFFFF;
-    text-align: center;
-    line-height: 70px;
+  width: 377px;
+  height: 70px;
+  left: 60px;
+  background: #B2D235;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  font: bold 30px UTM BryantLG;
+  line-height: 37px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  border: 0.3px solid #FFFFFF;
+  text-align: center;
+  line-height: 70px;
 }
 
-.banner1 {
-    position: absolute;
-    padding-top: 200px;
-    padding-left: 95px;
+.start-learning a {
+  text-decoration: none;
 }
 
-.banner2 {
-    position: absolute;
-    width: 360px;
-    height: 190px;
-    left: 1047px;
-    top: 609px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 23px;
-    line-height: 190px;
-    text-align: center;
+.start-learning a:hover {
+  color: #ffffff;
 }
 
-.banner21 {
-    width: 63px;
-    height: 16px;
-    left: 1112px;
-    top: 622px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: #7F7F7F;
+.banner-left {
+  padding: 200px 0 0 95px;
+}
+/* end banner */
+
+/* start body-courses */
+
+.body-courses {
+  position: absolute;
+  top: 805px;
+  height: 1414px;
+  width: 1440px;
 }
 
-.banner22 {
-    width: 256px;
-    height: 53px;
-    left: 1097px;
-    top: 642px;
-    background: #F1F0F0;
-    border-radius: 15px;
-    line-height: 53px;
-    text-align: center;
+.courses-main{
+  padding: 50px 110px 135px 135px;
+}
+.w3c{
+  height: 470px;
+  width: 370px;
 }
 
-.banner23 {
-    width: 276px;
-    height: 37px;
-    left: 1088px;
-    top: 718px;
-    background: #3184F7;
-    border-radius: 10px;
-    line-height: 37px;
-    text-align: center;
+/* end body-courses */
+
+.body-hapo-learn {
+  position: absolute;
+  top: 2219px;
+  height: 740px;
+  width: 1440px;
+  background-image: url("../images/Rectangle\ 17.png")
 }
 
-.banner24 {
-    width: 208px;
-    height: 16px;
-    left: 1123px;
-    top: 761px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: #B3B3B3;
-    text-align: center;
+/* footer */
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 308px;
+  top: 4754px;
 }
+
+.footer-flex {
+  background-color: #4f5354;
+  height: 270px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  padding-top: 46px; 
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}
+
+.footer-logo>p {
+  margin-left: 66px;
+}
+
+.footer-nav {
+  padding-top: 65px;
+  font: bold 23px UTM BryantLG;
+  line-height: 28px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  line-height: 2;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-home {
+  padding-right: 97px;
+}
+
+.footer-social {
+  line-height: 270px;
+}
+
+.footer-social>a {
+  padding-right: 35px;
+}
+
+.buttom-footer {
+  background-color: #454545;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  width: 1440px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* end footer */
