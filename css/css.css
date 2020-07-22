@@ -17,7 +17,7 @@
 
 .header {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 150px;
   left: 0px;
   top: 0px;
@@ -81,7 +81,7 @@ li a {
 .banner {
   background-image: url("../images/rectangle.png");
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 655px;
   left: 0px;
   top: 150px;
@@ -137,7 +137,11 @@ li a {
   text-decoration: none;
 }
 
-.start-learning a:hover {
+.start-learning:hover {
+  background-color: #3f51b5;
+}
+
+.start-learning:hover a {
   color: #ffffff;
 }
 
@@ -149,35 +153,202 @@ li a {
 /* start body-courses */
 
 .body-courses {
+  background: url("../images/background1.png") no-repeat top;
   position: absolute;
   top: 805px;
   height: 1414px;
-  width: 1440px;
+  width: 100%;
 }
 
 .courses-main{
   padding: 50px 110px 135px 135px;
 }
-.w3c{
+
+.all-courses{
+  display: flex;
+  flex-direction: row;
+  padding: 50px 135px;
+  justify-content: center;
+  align-items: center;
+}
+.w3c .laravel .php {
+  display: flex;
   height: 470px;
   width: 370px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  flex-direction: column
+}
+.courses-center {
+  height: 215px;
+  width: 370px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #3F6185;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0px 0px;
+}
+.w3c > .courses-center {
+  background: #3F6185;
+}
+.laravel > .courses-center {
+  background: #DC594C;
+}
+.laravel {
+  margin: 0px 30px;
+}
+.php > .courses-center {
+  background: #556598;
+}
+.courses-content {
+  height: 255px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 15px 15px;
+}
+.title{
+  font:bold 30px UTM BryantLG;
+  line-height: 37px;
+  letter-spacing: -0.05em;
+  color: #B2D235;
+}
+.courses-content-content {
+  font-family:bold 14px UTM BryantLG;
+  line-height: 20px;
+  margin: 10px 40px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #505353;
+}
+.this-courses {
+  width: 200px;
+  height: 42px;
+  font: bold 18px UTM BryantLG;
+  line-height: 42px;
+  letter-spacing: -0.05em;
+  background-color: #b3d236;
+  box-shadow: inset 0px 1.5px 2px #6F8710;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+}
+.this-courses > a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.this-courses:hover {
+  background-color: #51b53f;
+}
+.this-courses:hover a {
+  color: #dcf0d8;
 }
 
+.courses-other-title {
+  text-align: center;
+  font:bold 80px UTM BryantLG;
+  line-height: 98px;
+  letter-spacing: -0.02em;
+  color: #11114E;
+  padding-top: 60px;
+}
+.courses-other-title > hr {
+  background: #B2D235;
+  border-radius: 3px;
+  width: 480px;
+  height: 6px;
+  margin-left: 33%;}
+
+.courses-other-main{
+  padding: 45px 0 60px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.css .rails .java {
+  display: flex;
+  height: 395px;
+  width: 370px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  flex-direction: column
+}
+.courses-other-center {
+  height: 194px;
+  width: 370px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #3F6185;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0px 0px;
+}
+.css > .courses-other-center {
+  background-color: #24ABE2;
+}
+.rails > .courses-other-center {
+  background-color: #E14E40;
+}
+.css > .courses-other-center {
+  background-color: #1B75BB;
+}
+.rails {
+  margin: 0px 30px;
+}
+.courses-other-content{
+  width: 370px;
+  height: 201px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 15px 15px;
+}
+
+.other-title-button {
+  font:bold 40px UTM BryantLG;
+  line-height: 49px;
+  letter-spacing: -0.02em;
+  color: #90AB26;
+  text-align: center;
+}
 /* end body-courses */
 
+/* start hapo learn why */
 .body-hapo-learn {
   position: absolute;
   top: 2219px;
   height: 740px;
-  width: 1440px;
-  background-image: url("../images/Rectangle\ 17.png")
+  width: 100%;
+  background-image: url("../images/Rectangle\ 17.png");
+  display: flex;
+  flex-direction: row;
 }
+.why-learn {
+  width: 50%;
+}
+.why-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* end hapo learn why */
 
 /* footer */
 
 .footer {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 308px;
   top: 4754px;
 }
@@ -234,7 +405,7 @@ li a {
   font-size: 15px;
   letter-spacing: 2px;
   color: #FFFFFF;
-  width: 1440px;
+  width: 100%;
   height: 38px;
   line-height: 38px;
   text-align: center;
